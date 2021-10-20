@@ -2,7 +2,7 @@
 
 require_once(dirname(__DIR__) . "/autoload.php");
 
-$factory = new \classes\ArrayFactory();
+$factory = new \classes\StringFactory();
 
 $analyzer = $factory->getAnalyzer();
 $shuffler = $factory->getShuffler();
@@ -14,7 +14,7 @@ $analyzer->analyze($string);
 echo "<br />";
 $shuffler->shuffle($string)->getInfo();
 
-// Or array
+// Or array (use ArrayFactory)
 
 //$array = ["First", "Second", "Third"];
 //$analyzer->analyze($array);
