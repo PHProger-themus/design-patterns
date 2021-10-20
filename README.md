@@ -4,8 +4,8 @@ My practice.
 
 ### Patterns (+: implemented, -: planned):
 
- - (-) Factory Method
- - (-) Abstract Factory
+ - (+) Factory Method
+ - (+) Abstract Factory
  - (-) Builder
  - (-) Prototype
  - (-) Singleton
