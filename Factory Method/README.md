@@ -1,9 +1,11 @@
-# Builder
+# Factory Method
 
-Builder helps us to organize creation of objects which can have different states. If object can be created using different configurations, this pattern can be used.
+Factory Method pattern helps you to instantiate necessary class according to your input or configuration and work with it.
 
 ### My implementation
 
-In my implementation, pattern is used to instantiate DB working classes. I have 2 classes: MySQL and PostgreSQL Managers which contain methods for query building. `Builders` will create instances of these Managers depending on configuration option `driver`. Builders have parent class `DatabaseManagerBuilder` because of the same methods which can be placed in one class, so concrete Builders only define which Manager they will create.
+The code works with different logging systems.
 
-`Director` is used for easy instantiation. It contains `make()` method for this purpose and must take Builder as parameter in constructor or `setBuilder()` method. We can ignore this class and create objects ourselves.
+`index.php` has config variable. Then file defines class for logging using `logDriver` config option and `init()` method. This method takes 1 parameter - name of log, so `EmailLogger` will use it as email subject and `FileLogger` will replace ` ` with `_` and use it as file name.
+
+`init()` returns logger object. Later in code you can simply log changes using this object and its `log(string $message)` method.

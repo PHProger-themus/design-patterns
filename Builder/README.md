@@ -1,11 +1,11 @@
-# Abstract Factory
+# Builder
 
-Simple creation of object family of objects that should be used later. Family itself depends on configuration.
-
-If [Factory Method](../Factory%20Method/README.md) works with one object, Abstract Factory will take care of several objects.
+Builder helps us to organize creation of objects which can have different states. If object can be created using different configurations, this pattern can be used.
 
 ### My implementation
 
-The example is not particularly entertaining, but it shows the essence of the template well.
+In my implementation, pattern is used to instantiate DB working classes. I have 2 classes: MySQL and PostgreSQL Managers which contain methods for query building. `Builders` will create instances of these Managers depending on configuration option `driver`. Builders have parent class `DatabaseManagerBuilder` because of the same methods which can be placed in one class, so concrete Builders only define which Manager they will create.
 
-You can shuffle and analyze different data types (string and arrays only here, but who's stopping you from adding more?) by creating `analyzer` and `shuffler` classes. Just specify necessary type factory and go ahead!
+`Director` is used for easy instantiation. It contains `make()` method for this purpose and must take Builder as parameter in constructor or `setBuilder()` method. We can ignore this class and create objects ourselves.
+
+There's one moment: we shouldn't specify `getResult()` method in the interface of Builder as we don't know which class will be instantiated. But Builders can create objects of one class. Also, in PHP, we can omit return type in the interface. But in our case all Managers have parent `\classes\DB`, so it can be used as return type.
