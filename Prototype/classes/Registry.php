@@ -20,7 +20,7 @@ class Registry
         if(!isset($this->prototypes[$id])) {
             throw new \Exception("ID doesn't exist");
         }
-        return clone($this->prototypes[$id]);
+        return clone $this->prototypes[$id];
     }
 
 }
