@@ -6,7 +6,7 @@ My practice.
 
  - (+) Factory Method
  - (+) Abstract Factory
- - (-) Builder
+ - (+) Builder
  - (-) Prototype
  - (-) Singleton
  - (-) Adapter
