@@ -8,8 +8,8 @@ My practice.
  - (+) Abstract Factory
  - (+) Builder
  - (+) Prototype
- - (-) Singleton
- - (-) Adapter
+ - (+) Singleton
+ - (+) Adapter
  - (-) Bridge
  - (-) Composite
  - (-) Decorator
