@@ -10,7 +10,7 @@ My practice.
  - (+) Prototype
  - (+) Singleton
  - (+) Adapter
- - (-) Bridge
+ - (+) Bridge
  - (-) Composite
  - (-) Decorator
  - (-) Facade
