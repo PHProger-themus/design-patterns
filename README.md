@@ -14,7 +14,7 @@ My practice.
  - (+) Composite
  - (+) Decorator
  - (+) Facade
- - (-) Flyweight
+ - (+) Flyweight
  - (-) Proxy
  - (-) Chain of Responsibility
  - (-) Command
