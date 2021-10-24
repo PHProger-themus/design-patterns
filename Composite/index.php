@@ -26,7 +26,7 @@ $task9 = new Task("Go to the store");
 $group2 = new TaskGroup("Some more job tasks", [
     '1' => $task7,
     '2' => $task8,
-    '3' => $task9 // Oops. we added superfluous task. Removing...
+    '3' => $task9 // Oops. we've added one unnecessary task. Removing...
 ]);
 $group2->remove('3');
 

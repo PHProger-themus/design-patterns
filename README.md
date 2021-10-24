@@ -12,7 +12,7 @@ My practice.
  - (+) Adapter
  - (+) Bridge
  - (+) Composite
- - (-) Decorator
+ - (+) Decorator
  - (-) Facade
  - (-) Flyweight
  - (-) Proxy
