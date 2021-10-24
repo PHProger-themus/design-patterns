@@ -13,7 +13,7 @@ My practice.
  - (+) Bridge
  - (+) Composite
  - (+) Decorator
- - (-) Facade
+ - (+) Facade
  - (-) Flyweight
  - (-) Proxy
  - (-) Chain of Responsibility
