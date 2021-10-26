@@ -15,8 +15,8 @@ My practice.
  - (+) Decorator
  - (+) Facade
  - (+) Flyweight
- - (-) Proxy
- - (-) Chain of Responsibility
+ - (+) Proxy
+ - (+) Chain of Responsibility
  - (-) Command
  - (-) Iterator
  - (-) Mediator
