@@ -18,7 +18,7 @@ My practice.
  - (+) Proxy
  - (+) Chain of Responsibility
  - (+) Command
- - (-) Iterator
+ - (+) Iterator
  - (-) Mediator
  - (-) Memento
  - (-) Observer
