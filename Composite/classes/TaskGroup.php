@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace composite\classes;
 
-use interfaces\Component;
+use composite\interfaces\Component;
 
 class TaskGroup implements Component
 {

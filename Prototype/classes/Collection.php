@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace prototype\classes;
 
-use interfaces\Prototype;
+use prototype\interfaces\Prototype;
 
 class Collection implements Prototype
 {

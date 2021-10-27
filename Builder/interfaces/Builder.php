@@ -1,8 +1,8 @@
 <?php
 
-namespace interfaces;
+namespace builder\interfaces;
 
-use classes\DB;
+use builder\classes\DB;
 
 interface Builder
 {

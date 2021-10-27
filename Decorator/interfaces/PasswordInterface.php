@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace decorator\interfaces;
 
 interface PasswordInterface
 {

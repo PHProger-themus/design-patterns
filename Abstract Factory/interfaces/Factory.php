@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace abstract_factory\interfaces;
 
 interface Factory
 {

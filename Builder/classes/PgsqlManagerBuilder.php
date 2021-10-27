@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace builder\classes;
 
-use interfaces\Builder;
+use builder\interfaces\Builder;
 
 class PgsqlManagerBuilder extends DatabaseManagerBuilder implements Builder
 {

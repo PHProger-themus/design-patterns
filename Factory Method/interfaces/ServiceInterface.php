@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace factory_method\interfaces;
 
 interface ServiceInterface
 {

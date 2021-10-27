@@ -10,9 +10,9 @@ $config = [
     'database' => 'ml_website'
 ];
 
-$builder_name = "\\classes\\" . ucfirst($config['driver']) . "ManagerBuilder";
+$builder_name = "\\builder\\classes\\" . ucfirst($config['driver']) . "ManagerBuilder";
 $builder = new $builder_name();
-$director = new \classes\Director($builder);
+$director = new \builder\classes\Director($builder);
 
 $manager = $director->make($config['username'], $config['password'], $config['database']);
 var_dump($manager->getDriverInfo());

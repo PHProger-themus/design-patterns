@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace chain_of_responsibility\classes;
 
 abstract class Validator
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace command\classes;
 
-use interfaces\Command;
+use command\interfaces\Command;
 
 class DBChangerCommand implements Command
 {

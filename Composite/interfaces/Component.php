@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace composite\interfaces;
 
 interface Component
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace factory_method\classes;
 
-use interfaces\ServiceInterface;
+use factory_method\interfaces\ServiceInterface;
 
 class EmailLogger implements ServiceInterface
 {

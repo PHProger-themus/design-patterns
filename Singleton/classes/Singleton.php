@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace singleton\classes;
 
 class Singleton
 {

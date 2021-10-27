@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace bridge\interfaces;
 
 interface Implementation
 {

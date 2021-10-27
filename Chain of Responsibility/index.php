@@ -6,9 +6,9 @@ $form = [
     'name' => 'Michael',
     'email' => 'michael.st@gmail.com'
 ];
-$required = new \classes\Required();
-$isEmail = new \classes\IsEmail();
-$length = new \classes\Length(2);
+$required = new \chain_of_responsibility\classes\Required();
+$isEmail = new \chain_of_responsibility\classes\IsEmail();
+$length = new \chain_of_responsibility\classes\Length(2);
 
 $required->setNext($length);
 $name = $required;

@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace flyweight\classes;
 
 class EntityType
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace bridge\classes;
 
-use interfaces\Implementation;
+use bridge\interfaces\Implementation;
 
 class PgSQLBuilder implements Implementation
 {

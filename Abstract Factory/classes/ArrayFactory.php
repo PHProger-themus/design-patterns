@@ -1,10 +1,10 @@
 <?php
 
-namespace classes;
+namespace abstract_factory\classes;
 
-use interfaces\Factory;
-use interfaces\TypeAnalyzer;
-use interfaces\TypeShuffler;
+use abstract_factory\interfaces\Factory;
+use abstract_factory\interfaces\TypeAnalyzer;
+use abstract_factory\interfaces\TypeShuffler;
 
 class ArrayFactory implements Factory
 {

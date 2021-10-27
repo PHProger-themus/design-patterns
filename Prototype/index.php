@@ -2,17 +2,17 @@
 
 require_once(dirname(__DIR__) . "/autoload.php");
 
-$registry = new \classes\Registry();
+$registry = new \prototype\classes\Registry();
 
 // Adding some collections
 try {
 
-    $registry->addItem('tasks', "\\classes\\Collection", [
+    $registry->addItem('tasks', "\\prototype\\classes\\Collection", [
         'first' => "Feed a cat",
         'second' => "Clean up my room",
         'third' => "Buy products"
     ]);
-    $registry->addItem('computer-components', "\\classes\\Collection", [
+    $registry->addItem('computer-components', "\\prototype\\classes\\Collection", [
         'Processor' => "INTEL Core i3 10100F",
         'Video Card' => "PALIT NVIDIA GeForce RTX 3070TI",
         'Motherboard' => "MSI B460M-A PRO",

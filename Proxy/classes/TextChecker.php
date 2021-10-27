@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace proxy\classes;
 
-use interfaces\CheckerInterface;
+use proxy\interfaces\CheckerInterface;
 
 class TextChecker implements CheckerInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace prototype\interfaces;
 
 interface Prototype
 {

@@ -1,8 +1,8 @@
 <?php
 
-use classes\EntityFactory;
-use classes\Entity;
-use classes\EntityType;
+use flyweight\classes\EntityFactory;
+use flyweight\classes\Entity;
+use flyweight\classes\EntityType;
 
 require_once(dirname(__DIR__) . "/autoload.php");
 

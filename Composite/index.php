@@ -1,7 +1,7 @@
 <?php
 
-use classes\Task;
-use classes\TaskGroup;
+use \composite\classes\Task;
+use \composite\classes\TaskGroup;
 
 require_once(dirname(__DIR__) . "/autoload.php");
 

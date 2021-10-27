@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace adapter\classes;
 
-use interfaces\Service;
+use adapter\interfaces\Service;
 
 class ThirdPartyHandlerAdapter implements Service
 {

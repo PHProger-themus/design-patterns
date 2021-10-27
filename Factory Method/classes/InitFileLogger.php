@@ -1,9 +1,9 @@
 <?php
 
-namespace classes;
+namespace factory_method\classes;
 
-use interfaces\InitializerInterface;
-use interfaces\ServiceInterface;
+use factory_method\interfaces\InitializerInterface;
+use factory_method\interfaces\ServiceInterface;
 
 class InitFileLogger implements InitializerInterface
 {

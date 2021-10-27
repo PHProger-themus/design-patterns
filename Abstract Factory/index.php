@@ -2,7 +2,7 @@
 
 require_once(dirname(__DIR__) . "/autoload.php");
 
-$factory = new \classes\StringFactory();
+$factory = new abstract_factory\classes\StringFactory();
 
 $analyzer = $factory->getAnalyzer();
 $shuffler = $factory->getShuffler();

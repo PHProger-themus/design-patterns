@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace facade\classes;
 
 class Tagger
 {

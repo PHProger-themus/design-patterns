@@ -9,7 +9,7 @@ $app_config = [
 ];
 
 $driver = $app_config['logDriver'];
-$driverClass = "\\classes\\Init" . ucfirst($driver) . "Logger";
+$driverClass = "\\factory_method\\classes\\Init" . ucfirst($driver) . "Logger";
 $logger = (new $driverClass())->init("New app log");
 
 // Logger was defined according to configuration, so later in app we can use it to log:

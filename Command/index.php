@@ -2,12 +2,12 @@
 
 require_once(dirname(__DIR__) . "/autoload.php");
 
-$DB_changer = new \classes\DBChangerCommand("CREATE TABLE `users`");
+$DB_changer = new \command\classes\DBChangerCommand("CREATE TABLE `users`");
 $line = "Added new table 'users'";
-$logger = new \classes\LoggerCommand($line);
-$notifier = new \classes\NotifierCommand($line);
+$logger = new \command\classes\LoggerCommand($line);
+$notifier = new \command\classes\NotifierCommand($line);
 
-$queue = new \classes\Queue([
+$queue = new \command\classes\Queue([
     $DB_changer,
     $logger,
     $notifier

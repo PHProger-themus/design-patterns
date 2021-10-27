@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace adapter\interfaces;
 
 interface Service
 {

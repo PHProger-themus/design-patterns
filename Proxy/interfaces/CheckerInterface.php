@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace proxy\interfaces;
 
 interface CheckerInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace decorator\classes;
 
-use interfaces\PasswordInterface;
+use decorator\interfaces\PasswordInterface;
 
 class Password implements PasswordInterface
 {

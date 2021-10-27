@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace builder\classes;
 
 class PgsqlManager extends DB
 {

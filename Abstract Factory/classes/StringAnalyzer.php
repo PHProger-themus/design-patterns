@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace abstract_factory\classes;
 
-use interfaces\TypeAnalyzer;
+use abstract_factory\interfaces\TypeAnalyzer;
 
 class StringAnalyzer implements TypeAnalyzer
 {

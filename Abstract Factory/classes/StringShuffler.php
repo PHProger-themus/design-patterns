@@ -1,8 +1,8 @@
 <?php
 
-namespace classes;
+namespace abstract_factory\classes;
 
-use interfaces\TypeShuffler;
+use abstract_factory\interfaces\TypeShuffler;
 
 class StringShuffler implements TypeShuffler
 {
