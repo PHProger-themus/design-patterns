@@ -17,7 +17,7 @@ My practice.
  - (+) Flyweight
  - (+) Proxy
  - (+) Chain of Responsibility
- - (-) Command
+ - (+) Command
  - (-) Iterator
  - (-) Mediator
  - (-) Memento
