@@ -19,9 +19,9 @@ My practice.
  - (+) Chain of Responsibility
  - (+) Command
  - (+) Iterator
- - (-) Mediator
- - (-) Memento
- - (-) Observer
+ - (+) Mediator
+ - (+) Memento
+ - (+) Observer
  - (-) State
  - (-) Strategy
  - (-) Template Method

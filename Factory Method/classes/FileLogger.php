@@ -11,7 +11,7 @@ class FileLogger implements ServiceInterface
 
     public function log(string $message): void
     {
-        $log_line = date('Y-m-d H:i:s') . " | $message";
+        $log_line = date('Y-m-d H:i:s') . " | $message\n";
         file_put_contents(dirname(__DIR__) . "/logs/{$this->filename}", $log_line, FILE_APPEND);
     }
 }
