@@ -3,6 +3,7 @@
 namespace memento\classes;
 
 use memento\interfaces\Memento;
+use visitor\interfaces\Visitor;
 
 class User
 {
@@ -58,6 +59,11 @@ class User
         foreach ($memento->getState() as $field => $value) {
             $this->$field = $value;
         }
+    }
+
+    public function accept(Visitor $visitor): array
+    {
+        return $visitor->exportUser($this);
     }
 
 }

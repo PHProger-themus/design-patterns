@@ -14,9 +14,14 @@ class Task implements Component
         $this->text = $text;
     }
 
+    public function getStructure()
+    {
+        return $this->text;
+    }
+
     public function execute(): void
     {
-        echo "Task: " . $this->text . "<br />";
+        echo "Task: " . $this->getStructure() . "<br />";
     }
 
 }

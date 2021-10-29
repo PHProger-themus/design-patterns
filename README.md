@@ -22,7 +22,7 @@ My practice.
  - (+) Mediator
  - (+) Memento
  - (+) Observer
- - (-) State
- - (-) Strategy
- - (-) Template Method
- - (-) Visitor
+ - (+) State
+ - (+) Strategy
+ - (+) Template Method
+ - (+) Visitor
